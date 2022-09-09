@@ -5,15 +5,13 @@ import Stack from 'react-bootstrap/Stack';
 const SmallNavbarComponet = () => {
     return (
         <>
-        <Stack   gap={3}>
-          <div className='small-navbar'>{navbarData.map((data)=>(
-            
-            <div>{data}</div>
-          )
-          )
-
-          }</div>  
-          </Stack>
+            <Stack gap={5}>
+                <div className='small-navbar'>{navbarData.map((data) => (
+                    
+                    <div>{data}</div>
+                ))}
+                </div>
+            </Stack>
         </>
     );
 }
