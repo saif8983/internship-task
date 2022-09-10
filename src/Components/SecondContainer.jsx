@@ -8,7 +8,7 @@ const SecondContainer = () => {
     return (
         <>
 
-            <div class="d-flex justify-content-around" style={{ marginTop: '30px',}}>
+            <div class="d-flex justify-content-between" style={{ marginTop: '50px',padding:'0px 50px 0px 70px'}}>
                 <div className='text-title-container' style={{marginRight:'30px'}}>
                     <div className='text-second-container'>
                         valite officia consequate
@@ -24,10 +24,10 @@ const SecondContainer = () => {
                     </div>
                 </div>
             </div>
-            <div class="d-flex justify-content-around" style={{ marginTop: '70px' }}>
+            <div class="d-flex justify-content-around"  style={{ marginTop: '90px' ,padding:'0px 40px 0px 40px'}}>
                 {
                     fourCardData.map((data) => (
-                        <Card style={{ width: '200px', height: '380px' }}>
+                        <Card style={{ width: '200px', height: '380px' }} id='second-container-card'>
                             <Card.Img variant="top" src="https://cdn.pixabay.com/photo/2014/09/24/14/29/macbook-459196__340.jpg" />
                             <Card.ImgOverlay>
                                 <i class="bi bi-heart " style={{ fontSize: '25px', marginLeft: '150px', color: 'white' }} ></i>
@@ -51,8 +51,7 @@ const SecondContainer = () => {
                                     </div>
                                 </div>
                                 <Card.Text className='card-text-description'>
-                                    Some quick example text to build on the card title and make up the
-                                    bulk of the card's content.
+                                    Some quick example text to build on the card 
                                 </Card.Text>
                                 <hr></hr>
                                 <div className='card-price-section'>
