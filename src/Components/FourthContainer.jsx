@@ -1,10 +1,9 @@
 import React from 'react';
-import Container from 'react-bootstrap/Container';
 import Card from 'react-bootstrap/Card';
 import { Button } from 'react-bootstrap';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import { fourCardData } from '../Utils/CardData';
+import { phonesImages } from '../Utils/CardData';
 const FourthContainer = () => {
     return (
         <div>
@@ -23,15 +22,15 @@ const FourthContainer = () => {
             </Row>
             <Row className="justify-content-md-center mt-3">
                 {
-                    fourCardData.map((data) => (
+                    phonesImages.map((data) => (
                         <>
                             <Col sm={2}>
-                                <Card style={{ width: '200px', height: '350px' }} id='second-container-card'>
-                                    <Card.Img variant="top"  src="https://cdn.pixabay.com/photo/2014/09/24/14/29/macbook-459196__340.jpg" />
+                                <Card style={{ width: '200px', height: '400px' }} id='second-container-card'>
+                                    <Card.Img variant="top" style={{height:"220px"}} src={data.Card_Img} />
                                     <Card.ImgOverlay>
                                         <i class="bi bi-heart " style={{ fontSize: '25px', marginLeft: '150px', color: 'white' }} ></i>
                                     </Card.ImgOverlay>
-                                    <Card.Body style={{ borderRadius: '2em' }}>
+                                    <Card.Body >
                                         <div style={{ display: 'flex' }}>
                                             <div className="card-profile-img" > </div>
                                             <div>
@@ -50,7 +49,7 @@ const FourthContainer = () => {
                                             </div>
                                         </div>
                                         <Card.Text className='card-text-description'>
-                                            Some quick example text to build on the card title
+                                        Amet minim mollit non deserunt ullamco est sit.
                                         </Card.Text>
                                         <hr></hr>
                                         <div className='card-price-section'>

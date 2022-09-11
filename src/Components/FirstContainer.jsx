@@ -1,16 +1,11 @@
 import React from 'react';
-import Card from 'react-bootstrap/Card';
-import Button from 'react-bootstrap/Button'
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-
 import '../App.css'
-import ListGroup from 'react-bootstrap/ListGroup';
+import {Card,Button} from 'react-bootstrap';
 import { threeCardData, fourCardData } from '../Utils/CardData';
+
 const FirstContainer = () => {
   return (
     <>
-
       <div class="d-flex justify-content-around mt-5 " >
         <div className="text-title-size">
           <div className="text-first-container" >valite officia consequate</div>
@@ -46,8 +41,7 @@ const FirstContainer = () => {
                   </div>
                 </div>
                 <Card.Text className='card-text-description'>
-                  Some quick example text to build on the card title and make up the
-                  bulk of the card's content.
+                Amet minim mollit non deserunt ullamco est sit.
                 </Card.Text>
                 <hr></hr>
                 <div className='card-price-section'>
@@ -90,8 +84,7 @@ const FirstContainer = () => {
                   </div>
                 </div>
                 <Card.Text className='card-text-description'>
-                  Some quick example text to build on the card title and make up the
-                  bulk of the card's content.
+                Amet minim mollit non deserunt ullamco est sit.
                 </Card.Text>
                 <hr></hr>
                 <div className='card-price-section'>
@@ -107,6 +100,10 @@ const FirstContainer = () => {
         }
       </div>
 
+      <div style={{ display: 'flex', margin: "5vh 180vh" }}>
+        <div className='see-more-card' >Seemore</div>
+        <i class="bi bi-arrow-right" style={{ fontSize: '25px',color:'white' }}></i>
+      </div>
     </>
   );
 }

@@ -4,7 +4,7 @@ import { Button } from 'react-bootstrap';
 const ThirdContainer = () => {
     return (
         <>
-            <div class="d-flex justify-content-between  " style={{ padding: '20px 100px 20px 100px', marginTop: '20px' }}>
+            <div class="d-flex justify-content-between  " style={{ margin: '20px 100px 20px 100px', marginTop: '20px' }}>
                 <div><img src='images/image-third.png' style={{ borderRadius: "6px" }}></img></div>
                 <div class="d-flex flex-column mt-5">
                     <div className='text-third-container'>valite officia consequate</div>

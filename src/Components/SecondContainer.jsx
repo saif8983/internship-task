@@ -51,7 +51,7 @@ const SecondContainer = () => {
                                     </div>
                                 </div>
                                 <Card.Text className='card-text-description'>
-                                    Some quick example text to build on the card 
+                                Amet minim mollit non deserunt ullamco est sit.
                                 </Card.Text>
                                 <hr></hr>
                                 <div className='card-price-section'>
