@@ -1,19 +1,19 @@
 const threeCardData=[
     {
-        Card_Img:'',
+        Card_Img:'https://cdn.pixabay.com/photo/2014/09/24/14/29/macbook-459196__340.jpg',
         Card_Title:'Eleanor ',
         Card_Rating:'4.8',
         Card_Price:'2200',
         
     },
     {
-        Card_Img:'',
+        Card_Img:'https://cdn.pixabay.com/photo/2014/09/24/14/29/macbook-459196__340.jpg',
         Card_Title:'Flyod Miles',
         Card_Rating:'4.7',
         Card_Price:'1800'
     },
     {
-        Card_Img:'',
+        Card_Img:'https://cdn.pixabay.com/photo/2014/09/24/14/29/macbook-459196__340.jpg',
         Card_Title:'Annette ',
         Card_Rating:'4.9',
         Card_Price:'2200'
@@ -23,31 +23,31 @@ const threeCardData=[
 ] 
 const fourCardData=[
     {
-        Card_Img:'',
+        Card_Img:'https://cdn.pixabay.com/photo/2014/09/24/14/29/macbook-459196__340.jpg',
         Card_Title:'Theresa ',
         Card_Rating:'4.9',
         Card_Price:'2200'
     },
     {
-        Card_Img:'',
+        Card_Img:'https://cdn.pixabay.com/photo/2014/09/24/14/29/macbook-459196__340.jpg',
         Card_Title:'Flyod Miles',
         Card_Rating:'4.7',
         Card_Price:'1800'
     },
     {
-        Card_Img:'',
+        Card_Img:'https://cdn.pixabay.com/photo/2014/09/24/14/29/macbook-459196__340.jpg',
         Card_Title:'Annette ',
         Card_Rating:'4.9',
         Card_Price:'2200'
     },
     {
-        Card_Img:'',
+        Card_Img:'https://cdn.pixabay.com/photo/2014/09/24/14/29/macbook-459196__340.jpg',
         Card_Title:'Annette ',
         Card_Rating:'4.9',
         Card_Price:'2200'
     },
     {
-        Card_Img:'',
+        Card_Img:'https://cdn.pixabay.com/photo/2014/09/24/14/29/macbook-459196__340.jpg',
         Card_Title:'Annette ',
         Card_Rating:'4.9',
         Card_Price:'2200'

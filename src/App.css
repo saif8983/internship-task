@@ -69,7 +69,7 @@
   width: 200vh;
   height: 472px;
   background: #FFFFFF;
-  
+
 }
 
 .fourth-container {
@@ -77,7 +77,7 @@
   width: 200vh;
   height: 783px;
   background: #0AB79B;
-  
+
 }
 
 .fifth-container {
@@ -87,7 +87,7 @@
 
 
   background: #FBFBFB;
-  
+
 }
 
 .right-navbar-image {
@@ -135,7 +135,7 @@
   color: #0AB79B;
 }
 
-.mb-3 {
+.mb-2 {
   height: 51px;
   border: 1px solid #07A189;
   box-shadow: 3px 18px 37px 10px rgba(165, 165, 165, 0.2);
@@ -496,6 +496,7 @@
   line-height: 26px;
   color: #6C6C6C;
 }
+
 .btn-footer-text {
   font-family: 'Poppins';
   font-style: normal;
@@ -505,3 +506,41 @@
   color: #FFFFFF;
 
 }
+
+.modal-content {
+  background-color: #e7fffb !important;
+}
+
+.login-input_box {
+  padding: 7px;
+  border-radius: 5px;
+  border: 1px solid #17a992;
+}
+
+.login-input_box:focus {
+  outline: 0px;
+}
+
+
+.hr-sect {
+  display: flex;
+  flex-basis: 100%;
+  align-items: center;
+
+  margin: 8px 0px;
+}
+.hr-sect:before,
+.hr-sect:after {
+  content: "";
+  flex-grow: 1;
+  background-color: #21252947;
+  height: 2px;
+  font-size: 0px;
+  line-height: 0px;
+  margin: 0px 8px;
+  margin-top: 15px;
+}
+.underline {
+  border-bottom-width: 2px;
+ }
+ 

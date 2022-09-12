@@ -1,19 +1,19 @@
-import React from 'react';
-import navbarData from '../Utils/SmallNavbarData';
-import Stack from 'react-bootstrap/Stack';
+import React from "react";
+import navbarData from "../Utils/SmallNavbarData";
+import Stack from "react-bootstrap/Stack";
 
 const SmallNavbarComponet = () => {
-    return (
-        <>
-            <Stack gap={5}>
-                <div className='small-navbar'>{navbarData.map((data) => (
-                    
-                    <div>{data}</div>
-                ))}
-                </div>
-            </Stack>
-        </>
-    );
-}
+  return (
+    <>
+      <Stack gap={5}>
+        <div className="small-navbar">
+          {navbarData.map((data) => (
+            <div>{data}</div>
+          ))}
+        </div>
+      </Stack>
+    </>
+  );
+};
 
 export default SmallNavbarComponet;
