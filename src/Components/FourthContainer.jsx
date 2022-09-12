@@ -34,7 +34,6 @@ const FourthContainer = () => {
             <Col sm={2}>
               <Card
                 style={{ width: "200px", height: "400px" }}
-                id="second-container-card"
               >
                 <Card.Img
                   variant="top"
