@@ -7,45 +7,45 @@ import { phonesImages } from "../Utils/CardData";
 const FourthContainer = () => {
   return (
     <div>
-      <Row style={{ marginTop: "30px" }}>
-        <Col md={{ span: 3, offset: 5 }}>
+      <Row style={{ marginTop: "5rem" ,boxSizing:'border-box'}}>
+        <Col style={{marginLeft:'35rem'}} >
           <div className="text-fourth-container">valite officia consequate</div>
         </Col>
       </Row>
-      <Row class="mt-2">
-        <Col md={{ span: 5, offset: 4 }}>
+      <Row class="mt-3">
+        <Col style={{marginLeft:'32rem'}} >
           <div className="title-fourth-container">Lorem ipsum sit amet</div>
         </Col>
       </Row>
       <Row class="mt-3">
-        <Col md={{ span: 3, offset: 10 }}>
+        <Col  style={{marginLeft:'66rem'}}>
           <div style={{ display: "flex" }}>
-            <div className="seemore-fourth-container">Seemore</div>
-            <i
+            <div className="seemore-fourth-container">See More <i
               class="bi bi-arrow-right"
-              style={{ fontSize: "25px", color: "white" }}
-            ></i>
+              style={{ fontSize: "100%", color: "white" }}
+            ></i></div>
+            
           </div>
         </Col>
       </Row>
-      <Row className="justify-content-md-center mt-3">
+      <Row className="justify-content-center mt-3 fourth-container-image">
         {phonesImages.map((data) => (
           <>
             <Col sm={2}>
               <Card
-                style={{ width: "200px", height: "400px" }}
+                style={{ width: "12em", height: "25em" }}
               >
                 <Card.Img
                   variant="top"
-                  style={{ height: "220px" }}
+                  style={{ height: "60%" }}
                   src={data.Card_Img}
                 />
                 <Card.ImgOverlay>
                   <i
                     class="bi bi-heart "
                     style={{
-                      fontSize: "25px",
-                      marginLeft: "150px",
+                      fontSize: "100%",
+                      marginLeft: "90%",
                       color: "white",
                     }}
                   ></i>
@@ -56,7 +56,7 @@ const FourthContainer = () => {
                     <div>
                       <Card.Title
                         className="card-title"
-                        style={{ marginLeft: "10px" }}
+                        style={{ marginLeft: "0.2em" }}
                       >
                         {data.Card_Title}
                       </Card.Title>

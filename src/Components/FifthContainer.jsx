@@ -3,7 +3,7 @@ import { Button, Stack } from "react-bootstrap";
 
 const FifthContainer = () => {
   return (
-    <Stack direction="horizontal" gap={1} style={{ margin: "50px" }}>
+    <Stack direction="horizontal" gap={1} style={{ padding: "50px" }}>
       <Stack gap={3}>
         <div className="logo-footer-btn">
           <Button variant="Outlined">
@@ -37,9 +37,9 @@ const FifthContainer = () => {
       <Stack gap={3}>
         <div className="footer-title">Follow Us</div>
         <Stack direction="horizontal" gap={3}>
-          <i class="bi bi-twitter" style={{ fontSize: "25px" }}></i>
-          <i class="bi bi-facebook" style={{ fontSize: "25px" }}></i>
-          <i class="bi bi-instagram" style={{ fontSize: "25px" }}></i>
+          <i class="bi bi-twitter" style={{ fontSize: "2em" }}></i>
+          <i class="bi bi-facebook" style={{ fontSize: "2em" }}></i>
+          <i class="bi bi-instagram" style={{ fontSize: "2em" }}></i>
         </Stack>
       </Stack>
     </Stack>

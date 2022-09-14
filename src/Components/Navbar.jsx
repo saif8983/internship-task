@@ -5,12 +5,9 @@ import OverlayTrigger from "react-bootstrap/OverlayTrigger";
 import Popover from "react-bootstrap/Popover";
 import InputGroup from "react-bootstrap/InputGroup";
 import "../App.css";
-
 const NavbarComponet = () => {
   const [showLogin, setShowLogin] = useState(false);
-
   const handleShowLogin = () => setShowLogin(true);
-
   return (
     <Navbar className="navbar-main">
       <Nav className="nav">
@@ -22,7 +19,6 @@ const NavbarComponet = () => {
               </Button>
               <Modal
                 show={showLogin}
-                //onHide={handleClose}
                 backdrop="static"
                 keyboard={false}
               >
@@ -120,10 +116,10 @@ const NavbarComponet = () => {
               </InputGroup.Text>
             </InputGroup>
           </div>
-          <Nav className="navbar-post-project">
+          <Nav className="navbar-post-project" style={{whiteSpace:'nowrap'}}>
             <b>Post Project</b>
           </Nav>
-          <Nav className="navbar-search-project">
+          <Nav className="navbar-search-project" style={{whiteSpace:'nowrap'}}>
             <b>Search Project</b>
           </Nav>
           <Nav.Link href="#Chat">

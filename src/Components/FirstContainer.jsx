@@ -6,7 +6,7 @@ import { threeCardData, fourCardData } from "../Utils/CardData";
 const FirstContainer = () => {
   return (
     <>
-      <div class="d-flex justify-content-around mt-5 ">
+      <div class=" flex-card-fistcontainer " >
         <div className="text-title-size">
           <div className="text-first-container">valite officia consequate</div>
           <div className="title-first-container">
@@ -17,17 +17,19 @@ const FirstContainer = () => {
         </div>
 
         {threeCardData.map((data) => (
-          <Card style={{ width: "200px", height: "380px" }}>
+          <Card style={{ width: "12em", height: "25em" }}>
             <Card.Img
+            style={{height:'8rem',width:'100%'}}
               variant="top"
-              src="https://cdn.pixabay.com/photo/2014/09/24/14/29/macbook-459196__340.jpg"
+             
+              src={data.Card_Img}
             />
             <Card.ImgOverlay>
               <i
                 class="bi bi-heart "
                 style={{
-                  fontSize: "25px",
-                  marginLeft: "150px",
+                  fontSize: "100%",
+                  marginLeft: "90%",
                   color: "white",
                 }}
               ></i>
@@ -38,11 +40,11 @@ const FirstContainer = () => {
                 <div>
                   <Card.Title
                     className="card-title"
-                    style={{ marginLeft: "10px" }}
+                    style={{ marginLeft: "2%",whiteSpace:'nowrap' }}
                   >
                     {data.Card_Title}
                   </Card.Title>
-                  <Card.Text className="card-text-profile">
+                  <Card.Text className="card-text-profile" style={{whiteSpace:'nowrap'}}>
                     View Profile
                   </Card.Text>
                 </div>
@@ -51,7 +53,7 @@ const FirstContainer = () => {
                 <Card.Title className="card-title-rating">
                   {data.Card_Rating}
                 </Card.Title>
-                <div style={{ marginLeft: "10px" }}>
+                <div style={{ marginLeft: "10%" }}>
                   <i class="bi bi-star-fill" id="start-card"></i>
                   <i class="bi bi-star-fill" id="start-card"></i>
                   <i class="bi bi-star-fill" id="start-card"></i>
@@ -59,8 +61,8 @@ const FirstContainer = () => {
                   <i class="bi bi-star-half" id="start-card"></i>
                 </div>
               </div>
-              <Card.Text className="card-text-description">
-                Amet minim mollit non deserunt ullamco est sit.
+              <Card.Text className="card-text-description" style={{whiteSpace:'nowrap'}}>
+                Amet minim mollit<br></br> non deserunt<br></br> ullamco est sit.
               </Card.Text>
               <hr></hr>
               <div className="card-price-section">
@@ -80,19 +82,20 @@ const FirstContainer = () => {
           </Card>
         ))}
       </div>
-      <div class="d-flex justify-content-around  mt-4  ">
+      <div class="flex-card-second-first-container  " >
         {fourCardData.map((data) => (
-          <Card style={{ width: "200px", height: "380px" }}>
+          <Card style={{ width: "12em", height: "25em" }}>
             <Card.Img
               variant="top"
+              style={{height:'8rem',width:'100%'}}
               src="https://cdn.pixabay.com/photo/2014/09/24/14/29/macbook-459196__340.jpg"
             />
             <Card.ImgOverlay>
               <i
                 class="bi bi-heart "
                 style={{
-                  fontSize: "25px",
-                  marginLeft: "150px",
+                  fontSize: "100%",
+                  marginLeft: "90%",
                   color: "white",
                 }}
               ></i>
@@ -103,11 +106,11 @@ const FirstContainer = () => {
                 <div>
                   <Card.Title
                     className="card-title"
-                    style={{ marginLeft: "10px" }}
+                    style={{ marginLeft: "2%" ,whiteSpace:'nowrap'}}
                   >
                     {data.Card_Title}
                   </Card.Title>
-                  <Card.Text className="card-text-profile">
+                  <Card.Text className="card-text-profile" style={{whiteSpace:'nowrap'}}>
                     View Profile
                   </Card.Text>
                 </div>
@@ -116,7 +119,7 @@ const FirstContainer = () => {
                 <Card.Title className="card-title-rating">
                   {data.Card_Rating}
                 </Card.Title>
-                <div style={{ marginLeft: "10px" }}>
+                <div style={{ marginLeft: "10%" }}>
                   <i class="bi bi-star-fill" id="start-card"></i>
                   <i class="bi bi-star-fill" id="start-card"></i>
                   <i class="bi bi-star-fill" id="start-card"></i>
@@ -124,8 +127,8 @@ const FirstContainer = () => {
                   <i class="bi bi-star-half" id="start-card"></i>
                 </div>
               </div>
-              <Card.Text className="card-text-description">
-                Amet minim mollit non deserunt ullamco est sit.
+              <Card.Text className="card-text-description" style={{whiteSpace:'nowrap'}}>
+                Amet minim mollit<br></br> non deserunt<br></br> ullamco est sit.
               </Card.Text>
               <hr></hr>
               <div className="card-price-section">
@@ -146,12 +149,12 @@ const FirstContainer = () => {
         ))}
       </div>
 
-      <div style={{ display: "flex", margin: "5vh 170vh" }}>
-        <div className="see-more-card">Seemore</div>
-        <i
+      <div style={{ display: "flex", margin:"2% 90%" }}>
+        <div className="see-more-card" style={{whiteSpace:'nowrap'}}>See More <i
           class="bi bi-arrow-right"
-          style={{ fontSize: "25px", color: "white" }}
-        ></i>
+          style={{ fontSize: "100%", color: "white" }}
+        ></i></div>
+        
       </div>
     </>
   );

@@ -6,7 +6,7 @@ const SmallNavbarComponet = () => {
   return (
     <>
       <Stack gap={5}>
-        <div className="small-navbar">
+        <div className="small-navbar-flex">
           {navbarData.map((data) => (
             <div>{data}</div>
           ))}

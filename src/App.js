@@ -11,12 +11,12 @@ function App() {
    <>
     <div class="container">
   <div class="main-navbar"><NavbarComponet/></div>
-  <div class="small-navbar"><SmallNavbarComponet/></div>
-  <div class="first-contaner"><FirstContainer/></div>
+   <div class="small-navbar"><SmallNavbarComponet/></div>
+  <div class="first-contaner"><FirstContainer/></div> 
   <div class="second-container"><SecondContainer/></div>
   <div class="third-container"><ThirdContainer/></div>
   <div class="fourth-container"><FourthContainer/></div>
-  <div class="fifth-container"><FifthContainer/></div>
+ <div class="fifth-container"><FifthContainer/></div>  
 </div>
    </>
   );
